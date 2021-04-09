@@ -1,0 +1,15 @@
+.header {
+    background: #fff;
+    border-bottom: 1px solid #e4e6eb;
+    box-shadow: 0 10px 30px #e4e6eb;
+}
+
+.navbar {
+    text-align: center;
+    /* padding: 5px; */
+}
+.navbar h1{
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(0, 16, 243);
+}
