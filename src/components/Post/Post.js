@@ -27,10 +27,10 @@ const Post = (props) => {
     return (
         <div className="card">
             <div className="card-head">
-                <a href={authorProfile} target="_blank" className="card-author-box">
+                <a href={authorProfile} target="_blank" rel="noreferrer" className="card-author-box">
                     <img src={authorImg} alt={author} className="card-author-img"/>
                 </a>
-                <a href={authorProfile} target="_blank" className="card-name">{author}</a>
+                <a href={authorProfile} target="_blank" rel="noreferrer" className="card-name">{author}</a>
             </div>
             <div className="card-body">
                 <div className="card-post-box">
